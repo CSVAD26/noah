@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project1</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div >
+    <div class = "cards">
+      <div class = "container">
+        <div class = "card" id="card0" onclick = "SelectCard0()">
+          <image id = "card0Image" src = "assets/cards/card0.png"> </image>
+        </div>
+      </div>
+
+      <div class = "container">
+        <div class = "card" id="card1" onclick = "SelectCard1()">
+          <image id = "card1Image" src = "assets/cards/card0.png"> </image>
+        </div>
+      </div>
+
+      <div class = "container">
+        <div class = "card" id="card2" onclick = "SelectCard2()">
+          <image id = "card2Image" src = "assets/cards/card0.png"> </image>
+        </div>
+      </div>
+    </div>
+
+    <div id = "numberDiv">
+      <image id = "number" src = "assets/numbers/num0.png"> </image>
+    </div>
+    
+
+    <div id = "dice" onclick = "animateDice()">
+       <div class = "container">
+      <image src = "assets/textures/dice0.png" id = "diceImage"></image>
+    </div>
+    </div>
+
+    <div id = "cursor"></div>
+    
+    <div id = "overlay"></div>
+
+
+    <script src="main.js"></script>
+
+  </body>
+</html>
